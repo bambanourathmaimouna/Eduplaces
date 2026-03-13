@@ -1,0 +1,106 @@
+*{
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+
+header{
+width: 100%;
+height: 150px;
+background-color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+header .logo img{
+    width: 350px;
+    height: 150px;
+    padding: 100px;
+}
+.header_titre{
+    display: flex;
+    text-decoration: none;
+}
+.header_titre{
+list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.élèves{
+    width: 100%;
+    height: 800px;
+    background:linear-gradient(#281d1d69),url(Image/élèves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entrée{
+    width: 1200px;
+    height: 800px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.entrée1{
+    width: 1000px;
+    height: 400px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-left: 30px;
+    text-align: center;
+}
+.entrée2{
+    width: 1200px;
+    height: 200px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 40p;
+}
+.commencer{
+    width: 230px;
+    height: 80px;
+    background-color:#4666b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    border-radius: 20px;
+ 
+}
+.commencer h4{
+    color: white;
+    font-family: 'poppis' sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.barre{
+    width: 900px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 500px;
+    margin-top: 80px;
+    border-radius: 20px;
+    align-items: center;
+}
+.la{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 30px;
+ 
+}
