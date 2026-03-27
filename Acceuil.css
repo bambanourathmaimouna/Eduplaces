@@ -229,7 +229,9 @@ header{
     }
     header{
         flex-direction: column;
-        gap: 10px;
+    }*/
+    header .logo img{
+        width: 100px;
     }
 
     .header_titre{
